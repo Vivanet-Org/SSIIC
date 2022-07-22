@@ -23,5 +23,5 @@ jobs:
       - name: Deploy static site to S3 bucket
         run: aws s3 sync ./src/ s3://ssiic-230490046706 --delete
 
-    #- name: Run invalidation for Cloudfront
-    #  run: aws cloudfront create-invalidation --region ap-south-1 --distribution-id E35KT7I6V9QSID --paths "/*"
+      - name: Run invalidation for Cloudfront
+        run: aws cloudfront create-invalidation --region ap-south-1 --distribution-id E3SAEZQ59M02K9 --paths "/*"
