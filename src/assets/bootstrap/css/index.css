@@ -216,6 +216,7 @@
   border-bottom: 30px solid transparent;
 }
 .rectangle-127 {
+  z-index: 1;
   width: 690px;
   height: 50px;
   flex-grow: 0;
@@ -258,6 +259,7 @@
   color: #527dd9;
 }
 .rectangle-128 {
+  z-index: 1;
   width: 685px;
   height: 160px;
   flex-grow: 0;
@@ -301,6 +303,82 @@
 }
 
 /* Section2 End */
+
+/* Section2-1 Start */
+
+.section2-1{
+  margin-top: 73px;
+  display:grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.we-have{
+  /* width: 487px; */
+  /* height: 47px; */
+  /* margin: 73px 481px 67px 472px; */
+  font-family: Roboto;
+  font-size: 40px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #818286;
+}
+.expert-advice{
+  /* width: 289px; */
+  /* height: 47px; */
+  /* margin: 67px 587px 37px 564px; */
+  margin-top: 67px;
+  font-family: Roboto;
+  font-size: 40px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #818286;
+}
+.square-card{
+  margin-top: 37px;
+  display: flex;
+  gap: 30px;
+}
+.rectangle-129 {
+  width: 180px;
+  height: 150px;
+  flex-grow: 0;
+  /* padding: 53px 49.3px 53px 40.7px; */
+  padding: 45px 30px 25px 30px;
+  border-radius: 20px;
+  background-color: #f7f7f7;
+
+  /* padding: 0 874px 0 0; */
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.process-technology {
+  display:grid;
+  justify-content: center;
+  align-items: center;
+
+  /* width: 168px; */
+  /* height: 114px; */
+  flex-grow: 0;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #527dd9;
+}
+/* Sections2-1 End */
 
 /* Section3 Start */
 
@@ -363,7 +441,7 @@
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.67;
+  line-height: 1.4;
   letter-spacing: normal;
   text-align: justify;
   color: #527dd9;
@@ -372,7 +450,7 @@
   width: 690px;
   height: 70px;
   margin: 0px 0px 16px 0px;
-  padding: 23px 217px 114px 150px;
+  padding: 27px 217px 100px 150px;
   border-radius: 20px;
   border: solid 1px #c4c4c4;
   background-color: #f7f7f7;
@@ -385,7 +463,7 @@
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.67;
+  line-height: 1.4;
   letter-spacing: normal;
   text-align: justify;
   color: #527dd9;
@@ -407,7 +485,7 @@
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
-  line-height: normal;
+  line-height: 1.4;
   letter-spacing: normal;
   text-align: justify;
   color: #527dd9;
